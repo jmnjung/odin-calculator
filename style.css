@@ -39,6 +39,13 @@ button {
   justify-content: flex-end;
 }
 
+#previous,
+#current {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 #previous {
   color: #8d8d93;
   font-size: 3vh;
